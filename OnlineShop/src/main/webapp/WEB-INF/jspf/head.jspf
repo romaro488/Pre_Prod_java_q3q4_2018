@@ -1,0 +1,17 @@
+<title>Home</title>
+<!-- Meta tag Keywords -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+<meta name="keywords" content=""/>
+<!-- //Meta tag Keywords -->
+<!-- Custom-Files -->
+<link href="web/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Bootstrap css -->
+<link href="web/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Font-Awesome-Icons-CSS -->
+<link href="web/css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- pop-up-box -->
+<link href="web/css/menu.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- menu style -->
+<!-- //Custom-Files -->
+<!-- //web fonts -->

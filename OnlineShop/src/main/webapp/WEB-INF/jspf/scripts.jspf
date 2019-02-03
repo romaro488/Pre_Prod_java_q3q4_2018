@@ -1,0 +1,70 @@
+<!-- js-files -->
+<!-- jquery -->
+<script src="web/js/jquery-2.2.3.min.js"></script>
+<!-- //jquery -->
+
+<!-- nav smooth scroll -->
+<script src="web/js/nav-smooth-scroll.js"></script>
+<script src="web/js/myJs/filter.js"></script>
+<script src="web/js/myJs/operation-cart.js"></script>
+<!-- //nav smooth scroll -->
+
+<!-- popup modal (for location)-->
+<script src="web/js/jquery.magnific-popup.js"></script>
+<script src="web/js/myJs/bean-values.js"></script>
+<script>
+		$(document).ready(function () {
+			$('.popup-with-zoom-anim').magnificPopup({
+				type: 'inline',
+				fixedContentPos: false,
+				fixedBgPos: true,
+				overflowY: 'auto',
+				closeBtnInside: true,
+				preloader: false,
+				midClick: true,
+				removalDelay: 300,
+				mainClass: 'my-mfp-zoom-in'
+			});
+
+		});
+</script>
+<!-- //popup modal (for location)-->
+
+<!-- cart-js -->
+<script src="web/js/minicart.js"></script>
+<script src="web/js/cart.js"></script>
+<!-- //cart-js -->
+
+<!-- scroll seller -->
+<script src="web/js/scroll.js"></script>
+<!-- //scroll seller -->
+
+
+<!-- smoothscroll -->
+<script src="web/js/SmoothScroll.min.js"></script>
+<!-- //smoothscroll -->
+
+<!-- start-smooth-scrolling -->
+<script src="web/js/move-top.js"></script>
+<script src="web/js/easing.js"></script>
+<script>
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+</script>
+<!-- //end-smooth-scrolling -->
+
+<!-- smooth-scrolling-of-move-up -->
+<script src="web/js/smooth-scrolling-of-move-up.js"></script>
+<!-- //smooth-scrolling-of-move-up -->
+
+<!-- for bootstrap working -->
+<script src="web/js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- //js-files -->
